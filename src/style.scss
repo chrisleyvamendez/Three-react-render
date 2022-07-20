@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body, #root, .App {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+section {
+  position: relative;
+  min-height: 100vh;
+  box-sizing:border-box;
+}
+
+.webgl-render{
+  position: relative;
+  z-index: 1;
+
+  background-image: url('/img/GradientBlur.svg');
+  background-repeat: no-repeat;
+  background-position: center ;
+
+  filter: saturate(2.25);
+  height: 100vh;
+  padding: 2rem;
+  padding-bottom: 9rem;
+}
+
+.Messages-Container {
+  position: absolute;
+  width: fit-content;
+}
+
